@@ -1,2 +1,10 @@
 ext.nokia.com
 idc.nokia.com
+net.nokia.com
+access.nokia.com
+maps.nokia.com
+networks.nokia.com
+europe.nokia.com
+s.nokia.com
+inside.nokia.com
+software.nokia.com
