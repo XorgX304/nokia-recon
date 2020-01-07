@@ -8,3 +8,6 @@ europe.nokia.com
 s.nokia.com
 inside.nokia.com
 software.nokia.com
+
+#
+$ sublist3r -d DOMAIN -o s_domains.txt
