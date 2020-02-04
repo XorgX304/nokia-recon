@@ -17,10 +17,10 @@ print("""
 """)
 try:
 	email = sys.argv[1]
-	thr = int(sys.argv[3])
+	thr = 10
 	many = int(sys.argv[2])
 except:
-	print('i need args (./nokia.py email@test.com Many_msg Threading)')
+	print('i need args ($ ./nokia.py email@test.com Many_msg )')
 	exit()
 def sender(d):
 	r = requests.post('http://online.networks.nokia.com/newaccount/email.faces;SID_ACCREQ=vY1xp07fXxLZL511P46sgGTThDQk7C45vKGNyGyGjLYMCx5SX7yX!839189010!749046041',data=d)
