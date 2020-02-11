@@ -1,7 +1,10 @@
 # XSS Stored
 ##### hi nokia security team . i have found xss stored in https://myrealestate.ext.nokia.com
-##### when visite this domain we can see this message (```its work```) but using ```dirsearch Tool``` 
-
+##### when visite this domain we can see this message (```its work```) but with ```dirsearch Tool``` 
+##### CMD
+```
+$ dirsearch -u https://myrealestate.ext.nokia.com -e php
+```
 <img src='src/nokia_soap.png'>
 
 ### Nice lets Get XSS Stored :)
