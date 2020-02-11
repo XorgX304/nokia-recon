@@ -20,7 +20,7 @@
 ###### So secure XD
 
 ### Try to login in
-<img src='src/cp.png'>
+<img src='src/cp.jpg'>
 
 #### pwned ^__^
 
