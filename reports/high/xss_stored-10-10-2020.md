@@ -1,5 +1,5 @@
 # XSS Stored
-##### hi nokia security team . i have found xss stored in https://myrealestate.ext.nokia.com
+##### hi nokia security team . i have found xss stored in `https://myrealestate.ext.nokia.com , https://training.myrealestate.ext.nokia.com , https://test.myrealestate.ext.nokia.com`
 ##### when visite this domain we can see this message (```its work```) but with ```dirsearch Tool``` 
 ##### CMD
 ```
