@@ -39,7 +39,7 @@
   }
 ```
 
-#### you can add all parameters in the url like this `?desktop_url=http://google.com&android_url=http://google.com&ios_url=http://google.com` boom worked in all devices
+#### you can add all parameters in the url like this `?desktop_url=http://google.com&android_url=http://google.com&ios_url=http://google.com` now you can run xss in all devices
 
 #### impact is very low :(
 #### hmmm let's change it from open redirect to xss reflected using this payload `javascript:alert('@knassar702')`
