@@ -8,7 +8,7 @@
 
 #### from this code you can redirect the user to any website
 
-#### if the vicitm are using ios you need ios_url parameter
+#### if the vicitm using ios you need ios_url parameter
 
 ```javascript
     var ios_redirect = getURLParameter("ios_url");
