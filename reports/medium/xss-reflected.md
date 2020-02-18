@@ -42,6 +42,7 @@
 ### you can add all parameters in the url like this
 `?desktop_url=http://google.com&android_url=http://google.com&ios_url=http://google.com` 
 ### working in all devices
-### hmmm let's change it from open redirect to xss reflected using this payload `javascript:alert('@knassar702')`
+### hmmm let's change it from open redirect to xss reflected using this payload 
+`javascript:alert('@knassar702')`
 
 <img src='src/xsso.png'>
