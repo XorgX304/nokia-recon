@@ -5,6 +5,7 @@
 #### in this file `http://static.health.nokia.com/content/crm/redirect_url/js/detect_device.js` you can see this lines
 
 <img src='src/lines.png'>
+
 #### from this code you can redirect the user to any website
 
 #### if the vicitm are using ios you need ios_url parameter
