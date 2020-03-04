@@ -31,4 +31,6 @@
 
 ### Reference : https://www.owasp.org/index.php/Top_10-2017_A1-Injection
 
+HOF : https://nokia.com/responsible-disclosure/
+
 <img src='src/nokia_rep.png'>
