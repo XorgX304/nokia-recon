@@ -14,7 +14,7 @@
 
 ### Description : 
 
-<img src='src/mydatalolff.png'>
+<img src='src/datalolff.png'>
 
 #### in the page we can see important informations like PATH , LD_LIBRARY_PATH , PWD , and the user of server 
 
