@@ -13,9 +13,13 @@
 ## Bug 1 (informations Disclosure)
 
 ### Description : 
+
 <img src='src/mydatalolff.png'>
+
 #### in the page we can see important informations like PATH , LD_LIBRARY_PATH , PWD , and the user of server 
+
 ## Bug 2 (XSS) 
+
 ### Steps To Reproduce:
  * go to This <a href='https://download-emea.support.nokia.com:8443/cgi-bin/test.cgi'>link</a>
  * enter this payload in User-agent header or Cookies "><script>alert(1)</script> 
