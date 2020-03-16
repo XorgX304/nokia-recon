@@ -20,7 +20,7 @@
  * go to This <a href='https://download-emea.support.nokia.com:8443/cgi-bin/test.cgi'>link</a>
  * enter this payload in User-agent header or Cookies "><script>alert(1)</script> 
  
-<img src='burpdatalol.png'>
+<img src='src/burpdatalol.png'>
 
 ### impact :
 #### With the help of xss a hacker or attacker can perform social engineering on users by redirecting them from real website to fake one. hacker can steal their cookies and download a malware on their system, and there are many more attacking scenarios a skilled attacker can perform with xss.
