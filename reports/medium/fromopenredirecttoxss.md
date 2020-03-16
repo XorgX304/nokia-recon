@@ -18,4 +18,4 @@
 
 ## Demo
 
-<img src='src/xo4.gif'>
+<img src='src/xoi4.gif'>
