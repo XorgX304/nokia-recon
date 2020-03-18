@@ -9,8 +9,12 @@ $ python3 dirsearch.py -u DOMAIN -e * -t 50
 ### Good Luck
 
 ```bash
-am(){ #runs amass passively and saves to json
-amass enum --passive -d $1 -json $1.json
-jq .name $1.json | sed "s/\"//g"| httprobe -c 60 | tee -a $1-domains.txt
+recon(){
+	sublist3r -d $1 -o domains.txt
+	amass enum --passive -d $1 -o domains.txt
+	assetfinder -subs-only $1 > domains.txt
+	sort -u domains.txt -o domains.txt
+	cat domains.txt | httprobe | tee -a live_domains.txt
 }
+
 ```
