@@ -14,7 +14,8 @@ recon(){
 	amass enum --passive -d $1 -o domains.txt
 	assetfinder -subs-only $1 > domains.txt
 	sort -u domains.txt -o domains.txt
-	cat domains.txt | httprobe | tee -a live_domains.txt
+	whatweb -i domains.txt > live_domains.txt
+	cat live_domains.txt
 }
 
 ```
