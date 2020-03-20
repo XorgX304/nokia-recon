@@ -17,6 +17,7 @@ recon(){
         assetfinder -subs-only $1 > domains.txt
         sort -u domains.txt -o domains.txt
         whatweb -i domains.txt > live_domains.txt
+        cat live_domains.txt
 }
 
 
