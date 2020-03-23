@@ -16,8 +16,9 @@ recon(){
         amass enum --passive -d $1 -o domains.txt
         assetfinder -subs-only $1 > domains.txt
         sort -u domains.txt -o domains.txt
-        whatweb -i domains.txt > live_domains.txt
-        cat live_domains.txt
+        mkdir out
+        cat domains.txt | xargs -I % sh -c 'whatweb % -v --color=never --no-errors > out/%.txt'
+        echo '[+] Done '
 }
 
 
