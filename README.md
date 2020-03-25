@@ -14,7 +14,7 @@ recon(){
         cd $1
         sublist3r -d $1 -o domains.txt
         amass enum --passive -d $1 -o domains.txt
-        assetfinder -subs-only $1 > domains.txt
+        assetfinder -subs-only $1 >> domains.txt
         sort -u domains.txt -o domains.txt
         mkdir out
         cat domains.txt | xargs -I % sh -c 'whatweb % -v --color=never --no-errors > out/%.txt'
