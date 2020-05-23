@@ -1,3 +1,6 @@
+<p> Blog : <a href='https://knassar7o2.blogspot.com/2020/05/sql-injection-in-nokia.html'>Here</a>
+  </p>
+
 # SQL injection in https://gdclive.nokia.com - parent param
 
 # Steps To Reproduce :
